@@ -5,7 +5,47 @@ const generateMarkdown = require("./utils/generateMarkdown");
 
 // array of questions for user
 const questions = [
-
+        {
+            type: 'input',
+            name: 'licence',
+            message: ""
+        },
+        {
+            type: 'input',
+            name: 'title',
+            message: ""
+        },
+        {
+            type: 'input',
+            name: 'description',
+            message: ""
+        },
+        {
+            type: 'input',
+            name: 'installation',
+            message: ""
+        },
+        {
+            type: 'input',
+            name: 'test',
+            message: ""
+        },
+        {
+            type: 'input',
+            name: 'usage',
+            message: ""
+        },
+        {
+            type: 'input',
+            name: 'contributing',
+            message: ""
+        },
+        {
+            type: 'input',
+            name: 'email',
+            message: ""
+        },
+        
 ];
 
 // function to write README file
