@@ -57,18 +57,19 @@ const questions = [
 ];
 
 // function to write README file
-function writeToFile(fileName, data) {
-    //returns current working directory of the node.js process
-    return fs.writeFileSync(path.join(process.cwd(), fileName), data);
-}
+const writeToFile = (fileName, data) => {
+  // returns current working directory of the node.js process
+  return fs.writeFileSync(path.join(process.cwd(), fileName), data);
+};
 
 // function to initialize program
-function init() {
-    inquirer.prompt(questions).then((response) => {
-    console.log(`Generating README...`);
-    writeToFile(`README_Template.md`, generateMarkdown({...response}))
-}
-)}
+const init = () => {
+  inquirer.prompt(questions)
+    .then((response) => {
+      console.log(`Generating README...`);
+      writeToFile(`README_Template.md`, generateMarkdown({...response}));
+    });
+};
 
 // function call to initialize program
 init();
