@@ -6,7 +6,7 @@ const generateMarkdown = require("./utils/generateMarkdown");
 // array of questions for user
 const questions = [
         {
-            type: 'input',
+            type: 'list',
             name: 'licence',
             message: "What kind of Licence does this project have?",
             choices: ["MIT","APACHE2.0","GPL","None"]
@@ -35,22 +35,12 @@ const questions = [
         },
         {
             type: 'input',
-            name: 'usage',
-            message: "What does the user need to know about using this repository"
-        },
-        {
-            type: 'input',
-            name: 'contributing',
-            message: "What does the user need to know about contributing to this repository"
-        },
-        {
-            type: 'input',
             name: 'email',
             message: "What is your email address?"
         },
         {
             type: 'input',
-            name: 'Github',
+            name: 'github',
             message: "What is your Github username?"
         },
         
