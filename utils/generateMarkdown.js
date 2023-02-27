@@ -60,5 +60,5 @@ const generateMarkdown = (data) => {
   If you are interested in viewing more of my work you can visit my Github profile at [${data.github}](https://github.com/${data.github}).
 `;
 }
-
+// code below tells Node. js to export the function 'generateMarkdown' so that other files are allowed to access the exported code.
 module.exports = generateMarkdown;

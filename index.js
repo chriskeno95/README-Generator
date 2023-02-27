@@ -1,6 +1,13 @@
+//allows you to work with the file system on your computer
 const fs = require("fs");
+
+//The Path module provides a way of working with directories and file paths
 const path = require('path');
+
+//The require method lets your application know that it needs to use the inquirer package to execute the code below.
 const inquirer = require("inquirer");
+
+//imports the file generateMarkdown and its data
 const generateMarkdown = require("./utils/generateMarkdown");
 
 // array of questions for user
@@ -57,6 +64,7 @@ const init = () => {
   inquirer.prompt(questions)
     .then((response) => {
       console.log(`Generating README...`);
+      //creates file called `README_Template.md` or rewrite it if already present
       writeToFile(`README_Template.md`, generateMarkdown({...response}));
     });
 };
