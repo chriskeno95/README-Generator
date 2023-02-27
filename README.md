@@ -10,6 +10,8 @@ You can view the generated README file this this repo [here](https://github.com/
 
 I was unable to screen-record this project so i have added screenshots of the terminal as it ptinted the prompts and the answers it then stored as data so that the data could then be used to populate the generated README file.
 
+I used the speedruns provided to help me with the question prompts.
+
 ![screenshot](../README-Generator/images/screenshot1.png)
 ![screenshot](../README-Generator/images/screenshot2.png)
 ![screenshot](../README-Generator/images/screenshot3.png)
