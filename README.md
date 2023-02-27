@@ -12,7 +12,7 @@ I was unable to screen-record this project so i have added screenshots of the te
 
 I used the speedruns provided to help me with the question prompts.
 
-![screenshot](../README-Generator/images/screenshot1.png)
-![screenshot](../README-Generator/images/screenshot2.png)
-![screenshot](../README-Generator/images/screenshot3.png)
-![screenshot](../README-Generator/images/screenshot4.png)
+![screenshot](.images/screenshot1.png)
+![screenshot](./images/screenshot2.png)
+![screenshot](./images/screenshot3.png)
+![screenshot](./images/screenshot4.png)
