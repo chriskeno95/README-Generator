@@ -1,50 +1,48 @@
-# Professional README generator
+# README-Generator
+  ![Github licence](https://img.shields.io/badge/license-MIT-blue.svg)
 
-![Github licence](https://img.shields.io/badge/license-MIT-blue.svg)
+  ### Description
 
-### Description
+  This is my README generator that has been created with node.js
 
-This is my README generator that has been created with node.js
+  ### Table of Contents
 
-### Table of Contents
+  * [Licence](#Licence)
+  * [Installation](#Installation)
+  * [Usage](#Usage)
+  * [Contributing](#Contributing)
+  * [Testing](#Testing)
+  * [Questions](#Questions)
+  
+  ## Licence
 
-- [Licence](#Licence)
-- [Installation](#Installation)
-- [Usage](#Usage)
-- [Contributing](#Contributing)
-- [Testing](#Testing)
-- [Questions](#Questions)
+  This project is Licenced under the MIT licence.
 
-## Licence
+  ## Installation
+  To install the necessary dependencies, run the following command:
 
-This project is Licenced under the MIT licence.
+  ```
+  npm i
+  ```
 
-## Installation
+  ## Usage
 
-To install the necessary dependencies, run the following command:
+  You must use Version 16 or above.
 
-```
-npm i
-```
+  ## Contributing
 
-## Usage
+  To contribute all you have to do is create a Pull request on the repo
 
-You must use Version 16 or above.
+  ## Testing
 
-## Contributing
+  To run tests, use the following command:
 
-To contribute all you have to do is create a Pull request on the repo
+  ```
+  npm test
+  ```
 
-## Testing
+  ### Questions
 
-To run tests, use the following command:
+  If you have and questions or queries about this repository, you can open an issue, or feel free to contact me directly at chriskeno95@gmail.com.
 
-```
-npm test
-```
-
-### Questions
-
-If you have and questions or queries about this repository, you can open an issue, or feel free to contact me directly at chriskeno95@gmail.com.
-
-If you are interested in viewing more of my work you can visit my Github profile at [chriskeno95](https://github.com/chriskeno95).
+  If you are interested in viewing more of my work you can visit my Github profile at [chriskeno95](https://github.com/chriskeno95).
